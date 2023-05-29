@@ -16,6 +16,8 @@ public class Estate {
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     Long estateId;
 
+    private String user;
+
     @Column(name="estate_chamber")
     Long chamber;
 
